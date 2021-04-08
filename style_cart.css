@@ -174,7 +174,7 @@ section {
 }
 
 .total {
-  width: 15%
+  width: 15%;
   border-bottom: 1px solid lightgrey;
   display: flex;
   align-items: center;

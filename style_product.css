@@ -154,7 +154,6 @@ section:before {
 }
 
 .add_to_cart:hover {
-    border: 1px solid #6D5D49;
     background-color: #6D5D49;
     color: #ffffff;
 }
@@ -173,13 +172,12 @@ section:before {
 }
 
 .button2:hover {
-    border: 1px solid #6D5D49;
     background-color: #6D5D49;
     color: #ffffff;
 }
 
 .buttons {
-  display: flex-start;
+  display: flex;
   justify-content: space-around;
   padding: 10px;
 }
