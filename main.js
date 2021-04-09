@@ -141,6 +141,7 @@ function setDetail(product) {
 	let detailDescription = localStorage.setItem("itemDescription", product.description);
 }
 
+/* loads product detail page with correct details */
 function loadDetail() {
 	let detailName = localStorage.getItem("itemName");
 	let productPageCheck = document.querySelector('.left');
@@ -176,6 +177,7 @@ function loadDetail() {
 	}
 }
 
+/* displays shopping cart with items in cart */
 function displayCart() {
 	let cartItems = localStorage.getItem('productsInCart');
 	cartItems = JSON.parse(cartItems);
